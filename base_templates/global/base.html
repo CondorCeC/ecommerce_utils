@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}  
+<head>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+
+    <link rel="stylesheet" href="{% static 'global/css/style.css' %}">
+    <title>Condor em Casa</title>
+    <div class="logo-container">
+    <img src="{% static 'global/img/logo.png' %}">
+        
+    </div>
+</head>
+<body>
+    <header>
+    
+       
+
+
+    </header>
+    {% if messages %}
+    {% for message in messages %}
+      <div class="message {{ message.tags }}">
+
+        {{ message }} 
+      </div>
+    {% endfor %}
+  {% endif %}
+ 
+    {% block content %}{% endblock content %}
+</body>
+</html>

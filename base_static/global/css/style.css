@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+  }
+
+
+  .message {
+    max-width: 600px;
+    margin: var(--spacing) auto;
+    margin-top: calc(var(--spacing) * 2);
+    padding: var(--spacing);
+    text-align: center;
+    border-radius: var(--default-border-radius);
+    font-size: var(--smaller-font-size);
+  }
+  .message.success {
+    background: rgba(0, 255, 0, 0.3);
+    border: 1px solid rgba(0, 255, 0, 90%);
+  }
+  .message.error {
+    background: rgba(255, 0, 0, 0.3);
+    border: 1px solid rgba(255, 0, 0, 90%);
+  }
+  .message.warning {
+    background: rgba(255, 255, 0, 0.3);
+    border: 1px solid rgba(255, 255, 0, 90%);
+  }
+  .message.info{
+    background: rgba(0, 0, 255, 0.3);
+    border: 1px solid rgba(0, 0, 255, 0.3);
+  }
+
+
+  .card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.card-item img {
+    margin-right: 10px;
+    width: 32px;
+    height: 32px;
+}
+
+.card-item a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.card-item a:hover {
+    text-decoration: underline;
+}

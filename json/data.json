@@ -1,0 +1,50 @@
+{
+    "product": {
+        "availableForPickup": "false",
+        "categories": {
+            "code": "1-1-3-12-suino_congelado",
+            "name": "Suíno Congelado"
+        },
+        "code": "7894904727193",
+        "configurable": "false",
+        "description": "700g - Pernil Suíno - Congelada",
+        "manufacturer": "SEARA",
+        "multidimensional": "false",
+        "name": "Linguiça Seara",
+        "numberOfReviews": "0",
+        "price": {
+            "currencyIso": "BRL",
+            "formattedValue": "R$ 20,90",
+            "priceType": "BUY",
+            "value": "20.9"
+        },
+        "priceBySalesUnit": {
+            "currencyIso": "BRL",
+            "formattedValue": "R$ 21,25",
+            "priceType": "BUY",
+            "value": "21.25"
+        },
+        "priceRange": null,
+        "promotionPercentage": "1%",
+        "promotionalPrice": {
+            "currencyIso": "BRL",
+            "formattedValue": "R$ 20,90",
+            "priceType": "BUY",
+            "value": "20.9"
+        },
+        "purchasable": "true",
+        "sellingUnit": {
+            "code": "pieces",
+            "conversion": "1.0",
+            "name": "Peça",
+            "type": "pieces"
+        },
+        "stock": {
+            "isValueRounded": "false",
+            "stockLevel": "18",
+            "stockLevelStatus": "inStock"
+        },
+        "summary": null,
+        "url": "/Grocery/A%C3%A7ougue/Carne-Su%C3%ADna/Su%C3%ADno-Congelado/Lingui%C3%A7a-Seara/p/7894904727193"
+    }
+}

@@ -1,0 +1,22 @@
+{% extends "global/base.html" %}
+
+{% block content %}
+
+<div class="card">
+    <h1>Selecione</h1>
+
+    <div class="card-item">
+        <a href="{% url "disparo_isc:envio_pesquisa" %}">
+            <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+                <rect x="3" y="2" width="26" height="28" rx="3" ry="3" fill="#888" />
+                <line x1="8" y1="7" x2="24" y2="7" stroke="#FFF" stroke-width="2"/>
+                <line x1="8" y1="12" x2="24" y2="12" stroke="#FFF" stroke-width="2"/>
+                <line x1="8" y1="17" x2="24" y2="17" stroke="#FFF" stroke-width="2"/>
+                <line x1="8" y1="22" x2="24" y2="22" stroke="#FFF" stroke-width="2"/>
+            </svg>
+            Disparar pesquisa
+        </a>
+    </div>
+</div>
+
+{% endblock content %}

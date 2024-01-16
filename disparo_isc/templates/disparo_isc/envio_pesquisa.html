@@ -1,0 +1,11 @@
+{% extends 'global/base.html' %}
+{% load static %}
+{% block content %}
+<form method="post" enctype="multipart/form-data" name="email">{% csrf_token %}
+   
+    <input type="file" name="file" accept=".xlsx">
+    <button type="submit" class="button">Enviar</button>
+
+</form>
+
+{% endblock content %}
